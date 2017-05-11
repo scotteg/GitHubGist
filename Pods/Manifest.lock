@@ -1,0 +1,31 @@
+PODS:
+  - KFSwiftImageLoader (3.0.0)
+  - Realm (2.7.0):
+    - Realm/Headers (= 2.7.0)
+  - Realm/Headers (2.7.0)
+  - RealmSwift (2.7.0):
+    - Realm (= 2.7.0)
+  - RxCocoa (3.4.1):
+    - RxSwift (~> 3.4)
+  - RxRealm (0.6.0):
+    - RealmSwift (~> 2.5)
+    - RxSwift (~> 3.2)
+  - RxSwift (3.4.1)
+
+DEPENDENCIES:
+  - KFSwiftImageLoader (~> 3.0)
+  - RxCocoa (~> 3.4)
+  - RxRealm (~> 0.6)
+  - RxSwift (~> 3.4)
+
+SPEC CHECKSUMS:
+  KFSwiftImageLoader: c4656d614329480308b190c2b6f15015a4018ffc
+  Realm: 07e5d3a9e0e41d65fd5f9f05150ed6295d0f093b
+  RealmSwift: 6d06425d3900c86473c4f323bf6949b43fca22bc
+  RxCocoa: a8a5f1d061d0043e28f56976829f31ce63e8eb09
+  RxRealm: 323de579b50b5e0f4a3e087d5925021f976ffaf1
+  RxSwift: 656f8fbeca5bc372121a72d9ebdd3cd3bc0ffade
+
+PODFILE CHECKSUM: 89ff5ecfd9e63094dc4cf86e6586848ba991f521
+
+COCOAPODS: 1.2.0.beta.3
