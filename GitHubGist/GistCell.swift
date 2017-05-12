@@ -8,7 +8,7 @@
 
 import UIKit
 
-class GistCell: UITableViewCell {
+final class GistCell: UITableViewCell {
 
     @IBOutlet weak var avatarImageView: UIImageView!
     @IBOutlet weak var filenameLabel: UILabel!

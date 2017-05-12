@@ -66,8 +66,7 @@ extension AppDelegate {
 extension AppDelegate: UISplitViewControllerDelegate {
     
     func splitViewController(_ splitViewController: UISplitViewController, collapseSecondary secondaryViewController: UIViewController, onto primaryViewController: UIViewController) -> Bool {
-        guard let navController = secondaryViewController as? UINavigationController else { return false }
-        guard let gistViewController = navController.topViewController as? GistViewController else { return false }
+        guard let gistViewController = (secondaryViewController as? UINavigationController)?.topViewController as? GistViewController else { return false }
         guard gistViewController.gist != nil else { return true }
         return false
     }
